@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    background-color: #eef1ea;
+    color: #4E4D4D;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #527630;
+    text-align: center;
+}
+
+.panel-captura {
+    background-color: #ffffff;
+    border: 1px solid #B4B4B4;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Cada campo con su etiqueta arriba, por eso la columna */
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #B4B4B4;
+    border-radius: 6px;
+}
+
+#boton-registrar {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #527630;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#boton-reiniciar {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #8E8E8E;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tarjeta {
+    border: 1px solid #B4B4B4;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.tarjeta h3 {
+    margin: 0 0 8px 0;
+}
+
+.tarjeta p {
+    margin: 2px 0;
+}
+
+/* Estas dos clases se las pone app.js segun el promedio */
+.estado-positivo {
+    background-color: #d7f0c8;
+}
+
+.estado-alerta {
+    background-color: #f5c6c6;
+}
